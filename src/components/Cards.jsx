@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Cards() {
   const [fruits, setFruits] = useState([
-    { id: 1, name: "Apple", img: "src/assets/apple.png" },
+    { id: 1, name: "Apple", img: "./src/assets/apple.png" },
     { id: 2, name: "Cucumber", img: "src/assets/cucumber.png" },
     { id: 3, name: "Mango", img: "src/assets/mango.png" },
     { id: 4, name: "Pineapple", img: "src/assets/pineapple.png" },
