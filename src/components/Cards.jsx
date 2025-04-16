@@ -3,17 +3,17 @@ import { useState } from "react";
 function Cards() {
   const [fruits, setFruits] = useState([
     { id: 1, name: "Apple", img: "./assets/apple.png" },
-    { id: 2, name: "Cucumber", img: "/src/assets/cucumber.png" },
-    { id: 3, name: "Mango", img: "/src/assets/mango.png" },
-    { id: 4, name: "Pineapple", img: "src/assets/pineapple.png" },
-    { id: 5, name: "Banana", img: "src/assets/banana.png" },
-    { id: 6, name: "Grape", img: "src/assets/grape.png" },
-    { id: 7, name: "Cashew", img: "src/assets/cashew.png" },
-    { id: 8, name: "Cherry", img: "src/assets/cherry.png" },
-    { id: 9, name: "Pawpaw", img: "src/assets/pawpaw.png" },
-    { id: 10, name: "Strawberry", img: "src/assets/berry.png" },
-    { id: 11, name: "Watermelon", img: "src/assets/melon.png" },
-    { id: 12, name: "Coconut", img: "src/assets/coconut.png" },
+    { id: 2, name: "Cucumber", img: "./assets/cucumber.png" },
+    { id: 3, name: "Mango", img: "./assets/mango.png" },
+    { id: 4, name: "Pineapple", img: "./assets/pineapple.png" },
+    { id: 5, name: "Banana", img: "./assets/banana.png" },
+    { id: 6, name: "Grape", img: "./assets/grape.png" },
+    { id: 7, name: "Cashew", img: "./assets/cashew.png" },
+    { id: 8, name: "Cherry", img: "./assets/cherry.png" },
+    { id: 9, name: "Pawpaw", img: "./assets/pawpaw.png" },
+    { id: 10, name: "Strawberry", img: "./assets/berry.png" },
+    { id: 11, name: "Watermelon", img: "./assets/melon.png" },
+    { id: 12, name: "Coconut", img: "./assets/coconut.png" },
   ]);
   const [basket, setBasket] = useState([]);
   const [score, setScore] = useState(0);
